@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnpl/Renascence/!svn/ver/136385/Include/Trunk/Memory
+END
+Buffer.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnpl/Renascence/!svn/ver/45545/Include/Trunk/Memory/Buffer.h
+END
+PoolAllocator.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnpl/Renascence/!svn/ver/45545/Include/Trunk/Memory/PoolAllocator.h
+END
+SharedPtr.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnpl/Renascence/!svn/ver/136385/Include/Trunk/Memory/SharedPtr.h
+END
+Defs.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnpl/Renascence/!svn/ver/45545/Include/Trunk/Memory/Defs.h
+END
+ScopedPtr.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnpl/Renascence/!svn/ver/45545/Include/Trunk/Memory/ScopedPtr.h
+END
+SmartObjectPtr.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnpl/Renascence/!svn/ver/136385/Include/Trunk/Memory/SmartObjectPtr.h
+END
+Packet.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnpl/Renascence/!svn/ver/63431/Include/Trunk/Memory/Packet.h
+END

@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnpl/CloudModule/!svn/ver/6530/EFS/EFS-Include/Trunk/Manage
+END
+Web2mdsGetSystemInfoMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnpl/CloudModule/!svn/ver/4185/EFS/EFS-Include/Trunk/Manage/Web2mdsGetSystemInfoMessage.h
+END
+Web2mdsSystemControlInfoMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnpl/CloudModule/!svn/ver/4185/EFS/EFS-Include/Trunk/Manage/Web2mdsSystemControlInfoMessage.h
+END
+Web2mdsDelDatanodeMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnpl/CloudModule/!svn/ver/4185/EFS/EFS-Include/Trunk/Manage/Web2mdsDelDatanodeMessage.h
+END
+Web2mdsControlFileRecoveryModeMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnpl/CloudModule/!svn/ver/5935/EFS/EFS-Include/Trunk/Manage/Web2mdsControlFileRecoveryModeMessage.h
+END
+Web2mdsSetClusterNetworkMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnpl/CloudModule/!svn/ver/4185/EFS/EFS-Include/Trunk/Manage/Web2mdsSetClusterNetworkMessage.h
+END
+Web2csGetCatalogInfoMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnpl/CloudModule/!svn/ver/5451/EFS/EFS-Include/Trunk/Manage/Web2csGetCatalogInfoMessage.h
+END
+Web2dnGetDiskStatusMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnpl/CloudModule/!svn/ver/4185/EFS/EFS-Include/Trunk/Manage/Web2dnGetDiskStatusMessage.h
+END
+Web2csGetClusterNetworkMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnpl/CloudModule/!svn/ver/5712/EFS/EFS-Include/Trunk/Manage/Web2csGetClusterNetworkMessage.h
+END
+Web2mdsSetDNIptableMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnpl/CloudModule/!svn/ver/6530/EFS/EFS-Include/Trunk/Manage/Web2mdsSetDNIptableMessage.h
+END
+Web2dnGetDatanodeDetailMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnpl/CloudModule/!svn/ver/4185/EFS/EFS-Include/Trunk/Manage/Web2dnGetDatanodeDetailMessage.h
+END
+Web2mdsGetMdsIpInfoMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnpl/CloudModule/!svn/ver/5069/EFS/EFS-Include/Trunk/Manage/Web2mdsGetMdsIpInfoMessage.h
+END
+Web2mdsAddDatanodeMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnpl/CloudModule/!svn/ver/4185/EFS/EFS-Include/Trunk/Manage/Web2mdsAddDatanodeMessage.h
+END
+Web2mdsEfsFileInfoMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnpl/CloudModule/!svn/ver/4185/EFS/EFS-Include/Trunk/Manage/Web2mdsEfsFileInfoMessage.h
+END
+Web2csSetClusterNetworkMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnpl/CloudModule/!svn/ver/5712/EFS/EFS-Include/Trunk/Manage/Web2csSetClusterNetworkMessage.h
+END
+Web2mdsGetDatanodeInfoMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnpl/CloudModule/!svn/ver/4185/EFS/EFS-Include/Trunk/Manage/Web2mdsGetDatanodeInfoMessage.h
+END
+Web2mdsGetLicenseInfoMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnpl/CloudModule/!svn/ver/5069/EFS/EFS-Include/Trunk/Manage/Web2mdsGetLicenseInfoMessage.h
+END
+Web2mdsBlockRestoreMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnpl/CloudModule/!svn/ver/4185/EFS/EFS-Include/Trunk/Manage/Web2mdsBlockRestoreMessage.h
+END
+Web2mdsGetMdsInfoMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnpl/CloudModule/!svn/ver/4185/EFS/EFS-Include/Trunk/Manage/Web2mdsGetMdsInfoMessage.h
+END

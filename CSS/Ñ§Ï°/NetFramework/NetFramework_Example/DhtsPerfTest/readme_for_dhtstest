@@ -1,0 +1,20 @@
+dhtsperftest主要用来进行dhts性能测试,工具的使用方式类似iperf。
+
+编译方式：make -f Makefile_dhts clean;make -f Makefile_dhts
+
+The example code provide two test mode:
+
+1. Consecutive time test 
+   Server: 
+         ./dhtsperftest -s -p 7070 -T 
+   Client:
+         ./dhtsperftest -c 172.23.24.4 -p 7070 -T -n 10 -P 1 
+
+   change the ip and port to your own.
+
+2. Pesudo-data stream test 
+    Server:
+        ./dhtsperftest -s -p 7070 -i 1 
+    Client:
+        ./dhtsperftest -c 172.23.24.4 -p 7070 -b 4 -i 1
+

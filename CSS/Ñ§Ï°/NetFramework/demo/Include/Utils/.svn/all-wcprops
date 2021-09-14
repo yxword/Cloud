@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnpl/Renascence/!svn/ver/114442/Include/Trunk/Utils
+END
+Math.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnpl/Renascence/!svn/ver/45545/Include/Trunk/Utils/Math.h
+END
+Sha1.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnpl/Renascence/!svn/ver/49612/Include/Trunk/Utils/Sha1.h
+END
+TimeRecord.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnpl/Renascence/!svn/ver/45545/Include/Trunk/Utils/TimeRecord.h
+END
+ByteOrder.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnpl/Renascence/!svn/ver/45545/Include/Trunk/Utils/ByteOrder.h
+END
+IntervalSet.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnpl/Renascence/!svn/ver/88482/Include/Trunk/Utils/IntervalSet.h
+END
+MsgQue.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnpl/Renascence/!svn/ver/45545/Include/Trunk/Utils/MsgQue.h
+END
+String.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnpl/Renascence/!svn/ver/45545/Include/Trunk/Utils/String.h
+END
+Crc.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnpl/Renascence/!svn/ver/114442/Include/Trunk/Utils/Crc.h
+END
+CircularQueue.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnpl/Renascence/!svn/ver/45545/Include/Trunk/Utils/CircularQueue.h
+END
+Des.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnpl/Renascence/!svn/ver/70561/Include/Trunk/Utils/Des.h
+END
+Array.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnpl/Renascence/!svn/ver/45545/Include/Trunk/Utils/Array.h
+END
+Defs.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnpl/Renascence/!svn/ver/45545/Include/Trunk/Utils/Defs.h
+END
+NumberStat.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnpl/Renascence/!svn/ver/45545/Include/Trunk/Utils/NumberStat.h
+END
+Base64.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnpl/Renascence/!svn/ver/45545/Include/Trunk/Utils/Base64.h
+END
+Md5.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnpl/Renascence/!svn/ver/45545/Include/Trunk/Utils/Md5.h
+END
+Unicode.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnpl/Renascence/!svn/ver/45545/Include/Trunk/Utils/Unicode.h
+END

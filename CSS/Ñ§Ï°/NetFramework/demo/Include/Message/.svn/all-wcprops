@@ -1,0 +1,209 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnpl/CloudModule/!svn/ver/8420/EFS/EFS-Include/Trunk/Message
+END
+BlockCommand.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnpl/CloudModule/!svn/ver/4187/EFS/EFS-Include/Trunk/Message/BlockCommand.h
+END
+Oc2dnHeartBeatMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnpl/CloudModule/!svn/ver/4429/EFS/EFS-Include/Trunk/Message/Oc2dnHeartBeatMessage.h
+END
+Dn2mdsDiskBrokenNotify.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnpl/CloudModule/!svn/ver/4429/EFS/EFS-Include/Trunk/Message/Dn2mdsDiskBrokenNotify.h
+END
+Dn2mdsReportBadBlockNotify.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnpl/CloudModule/!svn/ver/6594/EFS/EFS-Include/Trunk/Message/Dn2mdsReportBadBlockNotify.h
+END
+Oc2mdsGetObjectBucketCapacityMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnpl/CloudModule/!svn/ver/4187/EFS/EFS-Include/Trunk/Message/Oc2mdsGetObjectBucketCapacityMessage.h
+END
+Oc2dnWriteBlockMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnpl/CloudModule/!svn/ver/4443/EFS/EFS-Include/Trunk/Message/Oc2dnWriteBlockMessage.h
+END
+Dn2mdsBlockReceivedNotify.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnpl/CloudModule/!svn/ver/4187/EFS/EFS-Include/Trunk/Message/Dn2mdsBlockReceivedNotify.h
+END
+Dn2mdsReportBlockMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnpl/CloudModule/!svn/ver/4187/EFS/EFS-Include/Trunk/Message/Dn2mdsReportBlockMessage.h
+END
+Oc2dnPrepareBlockMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnpl/CloudModule/!svn/ver/7291/EFS/EFS-Include/Trunk/Message/Oc2dnPrepareBlockMessage.h
+END
+Oc2mdsGetObjectCollectionInfoMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnpl/CloudModule/!svn/ver/4187/EFS/EFS-Include/Trunk/Message/Oc2mdsGetObjectCollectionInfoMessage.h
+END
+Oc2mdsSetObjectBucketCapacityMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnpl/CloudModule/!svn/ver/4187/EFS/EFS-Include/Trunk/Message/Oc2mdsSetObjectBucketCapacityMessage.h
+END
+Dn2mdsHeartBeatMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnpl/CloudModule/!svn/ver/4187/EFS/EFS-Include/Trunk/Message/Dn2mdsHeartBeatMessage.h
+END
+Oc2dnReadBlockMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnpl/CloudModule/!svn/ver/4187/EFS/EFS-Include/Trunk/Message/Oc2dnReadBlockMessage.h
+END
+Oc2mdsDeleteObjectCollectionMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnpl/CloudModule/!svn/ver/4187/EFS/EFS-Include/Trunk/Message/Oc2mdsDeleteObjectCollectionMessage.h
+END
+Oc2dnReadAttributeMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnpl/CloudModule/!svn/ver/4774/EFS/EFS-Include/Trunk/Message/Oc2dnReadAttributeMessage.h
+END
+Mds2dnDatanodeCommandMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnpl/CloudModule/!svn/ver/4187/EFS/EFS-Include/Trunk/Message/Mds2dnDatanodeCommandMessage.h
+END
+Oc2mdsRenewLeaseNotify.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnpl/CloudModule/!svn/ver/4187/EFS/EFS-Include/Trunk/Message/Oc2mdsRenewLeaseNotify.h
+END
+Oc2mdsAllocStorageMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnpl/CloudModule/!svn/ver/4187/EFS/EFS-Include/Trunk/Message/Oc2mdsAllocStorageMessage.h
+END
+Oc2mdsGetSystemStatMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnpl/CloudModule/!svn/ver/8420/EFS/EFS-Include/Trunk/Message/Oc2mdsGetSystemStatMessage.h
+END
+Oc2mdsReportBadBlockNofity.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnpl/CloudModule/!svn/ver/6776/EFS/EFS-Include/Trunk/Message/Oc2mdsReportBadBlockNofity.h
+END
+Oc2mdsRequestLoginMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnpl/CloudModule/!svn/ver/4244/EFS/EFS-Include/Trunk/Message/Oc2mdsRequestLoginMessage.h
+END
+Oc2mdsRemoveObjectBucketMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnpl/CloudModule/!svn/ver/4187/EFS/EFS-Include/Trunk/Message/Oc2mdsRemoveObjectBucketMessage.h
+END
+Oc2mdsGetObjectLocationsMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnpl/CloudModule/!svn/ver/4774/EFS/EFS-Include/Trunk/Message/Oc2mdsGetObjectLocationsMessage.h
+END
+Dn2mdsCommitBlockSyncNotify.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnpl/CloudModule/!svn/ver/4429/EFS/EFS-Include/Trunk/Message/Dn2mdsCommitBlockSyncNotify.h
+END
+Dn2mdsRegisterMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnpl/CloudModule/!svn/ver/7805/EFS/EFS-Include/Trunk/Message/Dn2mdsRegisterMessage.h
+END
+Oc2dnGetBlockInfoMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnpl/CloudModule/!svn/ver/4187/EFS/EFS-Include/Trunk/Message/Oc2dnGetBlockInfoMessage.h
+END
+HeartBeatMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnpl/CloudModule/!svn/ver/7605/EFS/EFS-Include/Trunk/Message/HeartBeatMessage.h
+END
+Oc2mdsCreateObjectBucketMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnpl/CloudModule/!svn/ver/4187/EFS/EFS-Include/Trunk/Message/Oc2mdsCreateObjectBucketMessage.h
+END
+Oc2mdsAllocContainerMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnpl/CloudModule/!svn/ver/7290/EFS/EFS-Include/Trunk/Message/Oc2mdsAllocContainerMessage.h
+END
+Oc2mdsHeartBeatMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnpl/CloudModule/!svn/ver/4429/EFS/EFS-Include/Trunk/Message/Oc2mdsHeartBeatMessage.h
+END
+DatanodeCommand.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnpl/CloudModule/!svn/ver/4187/EFS/EFS-Include/Trunk/Message/DatanodeCommand.h
+END
+Oc2mdsFindObjectBucketMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnpl/CloudModule/!svn/ver/4187/EFS/EFS-Include/Trunk/Message/Oc2mdsFindObjectBucketMessage.h
+END
+Oc2mdsCreateObjectCollectionMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnpl/CloudModule/!svn/ver/4898/EFS/EFS-Include/Trunk/Message/Oc2mdsCreateObjectCollectionMessage.h
+END
+Oc2mdsCloseObjectCollectionMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnpl/CloudModule/!svn/ver/4187/EFS/EFS-Include/Trunk/Message/Oc2mdsCloseObjectCollectionMessage.h
+END

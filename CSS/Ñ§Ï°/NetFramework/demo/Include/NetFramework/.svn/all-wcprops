@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnpl/Renascence/!svn/ver/172307/Include/Trunk/NetFramework
+END
+SockAddr.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnpl/Renascence/!svn/ver/135565/Include/Trunk/NetFramework/SockAddr.h
+END
+SimulatorStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnpl/Renascence/!svn/ver/135565/Include/Trunk/NetFramework/SimulatorStream.h
+END
+StreamSender.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnpl/Renascence/!svn/ver/135565/Include/Trunk/NetFramework/StreamSender.h
+END
+MediaStreamSender.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnpl/Renascence/!svn/ver/171345/Include/Trunk/NetFramework/MediaStreamSender.h
+END
+SockAddrIPv4.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnpl/Renascence/!svn/ver/135565/Include/Trunk/NetFramework/SockAddrIPv4.h
+END
+NFile.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnpl/Renascence/!svn/ver/135565/Include/Trunk/NetFramework/NFile.h
+END
+NTimer.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnpl/Renascence/!svn/ver/135565/Include/Trunk/NetFramework/NTimer.h
+END
+SockAddrIPv6.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnpl/Renascence/!svn/ver/135565/Include/Trunk/NetFramework/SockAddrIPv6.h
+END
+NDefs.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnpl/Renascence/!svn/ver/135565/Include/Trunk/NetFramework/NDefs.h
+END
+Sock.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnpl/Renascence/!svn/ver/135565/Include/Trunk/NetFramework/Sock.h
+END
+NTypes_Win32.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnpl/Renascence/!svn/ver/135565/Include/Trunk/NetFramework/NTypes_Win32.h
+END
+BlockPipe.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnpl/Renascence/!svn/ver/135565/Include/Trunk/NetFramework/BlockPipe.h
+END
+SockDgram.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnpl/Renascence/!svn/ver/135565/Include/Trunk/NetFramework/SockDgram.h
+END
+SockStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnpl/Renascence/!svn/ver/135565/Include/Trunk/NetFramework/SockStream.h
+END
+R3Server.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnpl/Renascence/!svn/ver/138757/Include/Trunk/NetFramework/R3Server.h
+END
+SslStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnpl/Renascence/!svn/ver/135565/Include/Trunk/NetFramework/SslStream.h
+END
+NetThread.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnpl/Renascence/!svn/ver/135565/Include/Trunk/NetFramework/NetThread.h
+END
+SockAddrStorage.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnpl/Renascence/!svn/ver/135565/Include/Trunk/NetFramework/SockAddrStorage.h
+END
+SockAcceptor.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnpl/Renascence/!svn/ver/135565/Include/Trunk/NetFramework/SockAcceptor.h
+END
+MediaStreamReceiver.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnpl/Renascence/!svn/ver/135565/Include/Trunk/NetFramework/MediaStreamReceiver.h
+END
+NStorDev_IF.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnpl/Renascence/!svn/ver/135565/Include/Trunk/NetFramework/NStorDev_IF.h
+END
+SslAcceptor.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnpl/Renascence/!svn/ver/172307/Include/Trunk/NetFramework/SslAcceptor.h
+END
+NetHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnpl/Renascence/!svn/ver/138750/Include/Trunk/NetFramework/NetHandler.h
+END
+Message.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnpl/Renascence/!svn/ver/135565/Include/Trunk/NetFramework/Message.h
+END
+StrParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnpl/Renascence/!svn/ver/135565/Include/Trunk/NetFramework/StrParser.h
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnpl/Renascence/!svn/ver/135565/Include/Trunk/NetFramework/readme.txt
+END
+SockPacket.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnpl/Renascence/!svn/ver/135565/Include/Trunk/NetFramework/SockPacket.h
+END

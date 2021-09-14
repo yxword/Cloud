@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnpl/Renascence/!svn/ver/188190/Include/Trunk/Infra/Infra3/Detail
+END
+flex_string_details.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnpl/Renascence/!svn/ver/135484/Include/Trunk/Infra/Infra3/Detail/flex_string_details.h
+END
+pp_gcc.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnpl/Renascence/!svn/ver/163951/Include/Trunk/Infra/Infra3/Detail/pp_gcc.hpp
+END
+allocatorstringstorage.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnpl/Renascence/!svn/ver/135484/Include/Trunk/Infra/Infra3/Detail/allocatorstringstorage.h
+END
+atomic_count_gcc.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnpl/Renascence/!svn/ver/135484/Include/Trunk/Infra/Infra3/Detail/atomic_count_gcc.hpp
+END
+cowstringopt.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnpl/Renascence/!svn/ver/135484/Include/Trunk/Infra/Infra3/Detail/cowstringopt.h
+END
+atomic_count_gcc_x86.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnpl/Renascence/!svn/ver/135484/Include/Trunk/Infra/Infra3/Detail/atomic_count_gcc_x86.hpp
+END
+simplestringstorage.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnpl/Renascence/!svn/ver/135484/Include/Trunk/Infra/Infra3/Detail/simplestringstorage.h
+END
+atomic_count_win32.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnpl/Renascence/!svn/ver/135484/Include/Trunk/Infra/Infra3/Detail/atomic_count_win32.hpp
+END
+pp_msvc.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnpl/Renascence/!svn/ver/163951/Include/Trunk/Infra/Infra3/Detail/pp_msvc.hpp
+END
+ministringstorage.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnpl/Renascence/!svn/ver/142557/Include/Trunk/Infra/Infra3/Detail/ministringstorage.h
+END
+flex_string_shell.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnpl/Renascence/!svn/ver/135484/Include/Trunk/Infra/Infra3/Detail/flex_string_shell.h
+END
+atomic_count_pthreads.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnpl/Renascence/!svn/ver/135484/Include/Trunk/Infra/Infra3/Detail/atomic_count_pthreads.hpp
+END
+vectorstringstorage.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnpl/Renascence/!svn/ver/135484/Include/Trunk/Infra/Infra3/Detail/vectorstringstorage.h
+END
+pp.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnpl/Renascence/!svn/ver/163951/Include/Trunk/Infra/Infra3/Detail/pp.hpp
+END
+atomic_count_solaris.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnpl/Renascence/!svn/ver/135484/Include/Trunk/Infra/Infra3/Detail/atomic_count_solaris.hpp
+END
+atomic_count_sync.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnpl/Renascence/!svn/ver/135484/Include/Trunk/Infra/Infra3/Detail/atomic_count_sync.hpp
+END
+smallstringopt.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnpl/Renascence/!svn/ver/135484/Include/Trunk/Infra/Infra3/Detail/smallstringopt.h
+END
+flex_string.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnpl/Renascence/!svn/ver/188190/Include/Trunk/Infra/Infra3/Detail/flex_string.h
+END
+atomic_count.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnpl/Renascence/!svn/ver/135484/Include/Trunk/Infra/Infra3/Detail/atomic_count.hpp
+END

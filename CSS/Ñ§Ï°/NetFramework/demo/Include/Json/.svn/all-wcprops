@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnpl/Renascence/!svn/ver/141505/Include/Trunk/Json
+END
+json.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnpl/Renascence/!svn/ver/87098/Include/Trunk/Json/json.h
+END
+value.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnpl/Renascence/!svn/ver/141505/Include/Trunk/Json/value.h
+END
+writer.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnpl/Renascence/!svn/ver/96410/Include/Trunk/Json/writer.h
+END
+ext.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnpl/Renascence/!svn/ver/64221/Include/Trunk/Json/ext.h
+END
+reader.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnpl/Renascence/!svn/ver/96410/Include/Trunk/Json/reader.h
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnpl/Renascence/!svn/ver/9572/Include/Trunk/Json/config.h
+END
+autolink.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnpl/Renascence/!svn/ver/518/Include/Trunk/Json/autolink.h
+END
+forwards.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnpl/Renascence/!svn/ver/64221/Include/Trunk/Json/forwards.h
+END
