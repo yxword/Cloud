@@ -2,28 +2,28 @@
 # makefile for x86
 #
 
-# ¹¤³ÌÄ¿Â¼
+# ï¿½ï¿½ï¿½ï¿½Ä¿Â¼
 TOPDIR = ..
 
-# makefileÃû×Ö£¬Éú³ÉµÄobjÎÄ¼þ»á·ÅÔÚ.obj_$(NAME)ÏÂÃæ
-# ËùÒÔ½¨ÒéÃ¿¸ö½Å±¾È¡²»Í¬µÄÃû×Ö£¬²»¹ý¾²Ì¬¿âºÍ¶¯Ì¬¿â¿ÉÒÔ¹²ÓÃÒ»¸öÃû×Ö
+# makefileï¿½ï¿½ï¿½Ö£ï¿½ï¿½ï¿½ï¿½Éµï¿½objï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.obj_$(NAME)ï¿½ï¿½ï¿½ï¿½
+# ï¿½ï¿½ï¿½Ô½ï¿½ï¿½ï¿½Ã¿ï¿½ï¿½ï¿½Å±ï¿½È¡ï¿½ï¿½Í¬ï¿½ï¿½ï¿½ï¿½ï¿½Ö£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì¬ï¿½ï¿½Í¶ï¿½Ì¬ï¿½ï¿½ï¿½ï¿½Ô¹ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 NAME = x86-test
-# ½»²æ±àÒë¹¤¾ßÇ°×º£¬¿Õ×Å±íÊ¾x86
+# ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ë¹¤ï¿½ï¿½Ç°×ºï¿½ï¿½ï¿½ï¿½ï¿½Å±ï¿½Ê¾x86
 CROSS = 
-# debug»¹ÊÇrelease
+# debugï¿½ï¿½ï¿½ï¿½release
 DEBUG = 1
-# ±àÒë³öµÄ¶þ½øÖÆÀàÐÍ£¬Ä¿Ç°Ö§³Ö¾²Ì¬¿âstatic£¬¶¯Ì¬¿âshared£¬¿ÉÖ´ÐÐ³ÌÐòexec
+# ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í£ï¿½Ä¿Ç°Ö§ï¿½Ö¾ï¿½Ì¬ï¿½ï¿½staticï¿½ï¿½ï¿½ï¿½Ì¬ï¿½ï¿½sharedï¿½ï¿½ï¿½ï¿½Ö´ï¿½Ð³ï¿½ï¿½ï¿½exec
 BINARY = exec
-# ¶þ½øÖÆÃû×Ö
+# ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 TARGET ?= Example
-# ¶þ½øÖÆÊä³öÂ·¾¶
+# ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â·ï¿½ï¿½
 INSTALL_PATH = .
 
-# Ô´ÎÄ¼þÄ¿Â¼Â·¾¶
+# Ô´ï¿½Ä¼ï¿½Ä¿Â¼Â·ï¿½ï¿½
 SRCPATH = ./
-# ÐèÒª±àÒëµÄÔ´ÎÄ¼þ×ÓÄ¿Â¼£¨±ØÐëÔÚÔ´ÎÄ¼þÄ¿Â¼Â·¾¶Ö®ÏÂ£©
+# ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½Ô´ï¿½Ä¼ï¿½ï¿½ï¿½Ä¿Â¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô´ï¿½Ä¼ï¿½Ä¿Â¼Â·ï¿½ï¿½Ö®ï¿½Â£ï¿½
 
-#DHTS¿â
+#DHTSï¿½ï¿½
 DHTSLIB =
 
 ifeq ($(demo), tcpsvr)
@@ -156,38 +156,44 @@ endif
 
 
 
-# Í·ÎÄ¼þÄ¿Â¼
+# Í·ï¿½Ä¼ï¿½Ä¿Â¼
 INCDIR = ./ \
-		$(SRCSUBDIR) \
-		$(TOPDIR)/Include
+		$(SRCSUBDIR)/ \
+		./Include
 		#-I../Include -I./ -I../../../include/ -I../
 	
-# Ò»Ð©×Ô¶¨ÒåµÄ±àÒëflags£¨debugºÍreleaseµÄÒ»Ð©Ñ¡ÏîÒÑÔÚcommon.mkÖÐ°üº¬£©
+# Ò»Ð©ï¿½Ô¶ï¿½ï¿½ï¿½Ä±ï¿½ï¿½ï¿½flagsï¿½ï¿½debugï¿½ï¿½releaseï¿½ï¿½Ò»Ð©Ñ¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½common.mkï¿½Ð°ï¿½ï¿½ï¿½ï¿½ï¿½
 CFLAGS += -Wall #-fprofile-arcs  -ftest-coverage
 CFLAGS += -g
 
-# Ò»Ð©×Ô¶¨ÒåµÄÁ´½Óflags£¨¾²Ì¬¿â²»ÓÃ£©
+# Ò»Ð©ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½flagsï¿½ï¿½ï¿½ï¿½Ì¬ï¿½â²»ï¿½Ã£ï¿½
 LDFLAGS = -ldl -lrt
 ifeq ($(cov), 1)
 CFLAGS += -fprofile-arcs -ftest-coverage
 LDFLAGs += -lgcov
 endif
 
-# Á´½ÓµÄ¿âÂ·¾¶£¨¾²Ì¬¿â²»ÓÃ£©
+# ï¿½ï¿½ï¿½ÓµÄ¿ï¿½Â·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì¬ï¿½â²»ï¿½Ã£ï¿½
+# LIBDIR = \
+# 	$(TOPDIR)/Lib/m64x86/
+# 	#$(TOPDIR)/Test/Lib/m64x86 
 LIBDIR = \
-	$(TOPDIR)/Lib/m64x86/
+	./Lib
 	#$(TOPDIR)/Test/Lib/m64x86 
+
 
 
 #CFLAGS += -DLocalLiveTest	
 	
-# Á´½ÓµÄ¿â£¨¾²Ì¬¿â²»ÓÃ£©
+# ï¿½ï¿½ï¿½ÓµÄ¿â£¨ï¿½ï¿½Ì¬ï¿½â²»ï¿½Ã£ï¿½
 #LIBS = gtest StreamSvr Stream NetFramework Infra pthread NetAutoAdaptor Opensource Dhts
 #LIBS = Infra Opensource NetFramework_ssl
-LIBS = Infra Opensource Dhts
+# LIBS = Infra Opensource Dhts
+LIBS = Infra64 pthread
 
-# ÓÃ»§Ò×¸Ä±äµÄ¿â
-USER_LIBS = $(TOPDIR)/Lib/m64x86/libNetFramework.a
+# ï¿½Ã»ï¿½ï¿½×¸Ä±ï¿½Ä¿ï¿½
+# USER_LIBS = $(TOPDIR)/Lib/m64x86/libNetFramework.a
+USER_LIBS = ./Lib/libNetFramework64.a
 
-# ½øÈëÊµÖÊ´¦Àí
+# ï¿½ï¿½ï¿½ï¿½Êµï¿½Ê´ï¿½ï¿½ï¿½
 include common.mk

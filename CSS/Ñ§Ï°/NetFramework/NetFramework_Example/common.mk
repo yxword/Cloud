@@ -58,6 +58,7 @@ end:
 
 # build
 $(TARGET): $(OBJS) $(USER_LIBS)
+# $(TARGET): $(OBJS) 
 	@echo [[[ OUTPUT ]]]
 # 1 - static lib
 ifeq ($(BINARY), static)
@@ -70,6 +71,7 @@ else ifeq ($(BINARY), shared)
 # 3 - exec
 else ifeq ($(BINARY), exec)
 	@echo " --- exec make $(TARGET)"
+#	@$(CPP) $^ $(LDLIBS) $(LDFLAGS) -o $(BINDIR)/$@
 	@$(CPP) $^ $(LDLIBS) $(LDFLAGS) -o $(BINDIR)/$@
 # 4 - else
 else
@@ -82,6 +84,7 @@ $(OBJPATH)/%.o: $(SRCPATH)/%.c
 	@echo " $(CC) $(patsubst $(SRCPATH)/%, %, $<)"
 	@$(CC) -c $(INCS) $(CFLAGS) $< -o $@
 $(OBJPATH)/%.o: $(SRCPATH)/%.cpp
+	@echo "compile"
 	@echo " $(CPP) $(patsubst $(SRCPATH)/%, %, $<)"
 	@$(CPP) -c $(INCS) $(CFLAGS) $< -o $@
 
