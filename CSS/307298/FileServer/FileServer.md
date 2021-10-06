@@ -105,3 +105,12 @@ int main(){
 }
 ```
 
+
+
+
+
+***
+
+file stat
+
+https://www.cnblogs.com/aboutblank/p/3617196.html
