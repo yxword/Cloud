@@ -15,7 +15,7 @@ class CInput
         string str;
         char ch;
 
-        while( ch = cin.get() ){
+        while( ( ch = cin.get() ) ){
             if( ch == '\n' ) {
                 cout << endl;
                 break;

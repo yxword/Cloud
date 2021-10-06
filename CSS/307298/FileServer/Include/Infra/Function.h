@@ -71,19 +71,19 @@ inline OutputClass horrible_cast(const InputClass input){
 	// Cause a compile-time error if in, out and u are not the same size.
 	// If the compile fails here, it means the compiler has peculiar
 	// unions which would prevent the cast from working.
-	typedef int ERROR_CantUseHorrible_cast[sizeof(InputClass)==sizeof(u)
-		/*&&  sizeof(InputClass)==sizeof(OutputClass)*/ ? 1 : -1];
+	// typedef int ERROR_CantUseHorrible_cast[sizeof(InputClass)==sizeof(u)
+	// 	/*&&  sizeof(InputClass)==sizeof(OutputClass)*/ ? 1 : -1];
 	u.in = input;
 	return u.out;
 }
 
-/// ÉèÖÃµ±Ç°Ïß³Ìº¯Êý¸´ÓÃID
+/// ï¿½ï¿½ï¿½Ãµï¿½Ç°ï¿½ß³Ìºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ID
 void INFRA_API setCurrentFunctionReuse(uint32_t reuse);
 
 } // namespace Detail
 
 
-/// »ñÈ¡µ±Ç°Ïß³Ìº¯Êý¸´ÓÃID
+/// ï¿½ï¿½È¡ï¿½ï¿½Ç°ï¿½ß³Ìºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ID
 uint32_t INFRA_API getCurrentFunctionReuse( );
 
 //TFuction0

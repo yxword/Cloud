@@ -3,7 +3,7 @@
 #include "Infra/Thread.h"
 #include "Input.h"
 
-using std::string;
+// using std::string;
 
 int main( int argc, char* argv[] )
 {
@@ -15,29 +15,38 @@ int main( int argc, char* argv[] )
     	return 0;
     }
 
-    CFileClient* cli = new CFileClient();   ///** ÄÚ´æÐ¹Â©??
+    CFileClient* cli = new CFileClient();   
     std::cout << "connecting" << std::endl;
-    cli->connectServer( CSockAddrIPv4("127.0.0.1", 7800) );
+    cli->connectServer( CSockAddrIPv4("127.0.0.1", 4444) );
 
     // system( "stty -echo" );
     // system( "stty -icanon" );
 
     while( true ){
+        if( cli->isClose() ) {
+            cout << "connection close" << endl;
+            break;
+        }
         string operation, filename;
         cout << "[@FileClient]# ";
         operation = CInput::inputString();
-        if( operation == "downloadFile" ){
-            cli->downloadFile();
-        }
-        else if( operation == "uploadFile" ){
-            filename = CInput::inputString();
-            int ret = cli->uploadFile( filename );
-        }
+        if( operation == "q" || operation == "quit" ) break;
 
+        filename = CInput::inputString();
+        if( operation == "download" ){
+            cli->downloadFile( filename );
+        }
+        else if( operation == "upload" ){
+            cli->uploadFile( filename );
+        }
+        Dahua::Infra::CThread::sleep( 5 * 1000 );
     }
 
+    cli->close();
     delete cli;
     cli = NULL;
+    cout <<"test" << endl;
     CNetThread::DestroyThreadPool();
+    cout <<"test" << endl;
     return 0;
 }
