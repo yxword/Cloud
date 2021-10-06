@@ -1,0 +1,47 @@
+[TID:176249] 2021-07-30 17:11:44|info [libProtocol] [*] EFS-PROTOCOL V1.090.0000002.660dcdf Built in Jul 14 2021 12:42:47[*]
+[TID:176249] 2021-07-30 17:11:44|info registeSigUSR1Trigger
+[TID:176249] 2021-07-30 17:11:44|info CDynamicUpdateHandle::loadSDKLibrary 273, upgrade file: /tmp/sdk/libEFSClientCore64.so not exist, use default!
+[TID:176249] 2021-07-30 17:11:44|info CDynamicUpdateHandle::loadSDKLibrary 283, load efsclient so:/root/libs/libEFSClientCore64.so success!
+[TID:176249] 2021-07-30 17:11:44|info [libProtocol] [*] EFS-PROTOCOL V1.090.0000002.660dcdf Built in Jul 14 2021 12:42:47[*]
+[TID:176249] 2021-07-30 17:11:44|info registeSigUSR1Trigger
+[TID:176249] 2021-07-30 17:11:44|info [libEFSClient] [*] EFS-SDK V1.090.0000002.0000 Built in Jul 14 2021 12:43:38[*]
+[TID:176249] 2021-07-30 17:11:44|info CTimer::CTimer 43, timer threads reach to max num:8!
+[TID:176249] 2021-07-30 17:11:44|info CTimer::newTimer 89, timer manager(0x7fe7147f6b00) create!
+[TID:176249] 2021-07-30 17:11:44|info #0,CSdkStat::start 114, Start Sdk Timer to record status info.
+[TID:176249] 2021-07-30 17:11:44|info cpu support jerasure2.0, so use SSE and so on
+[TID:176249] 2021-07-30 17:11:44|info CDynamicUpdateHandle::getSDKVersion 329, MainVer:1,SubVer:90,IterVer:2,SvnVer:0
+[TID:176249] 2021-07-30 17:11:44|info CDynamicUpdateHandle::connectUpgradeSrv 337, start to connect upgrade server!
+[TID:176249] 2021-07-30 17:11:44|info CTimer::CTimer 43, timer threads reach to max num:8!
+[TID:176249] 2021-07-30 17:11:44|info CTimer::newInternalTimer 101, timer manager(0x7fe731f5eb30) create!
+[TID:176288] 2021-07-30 17:11:46|warn #0,CConnection::handle_output_timeout 379, 0x106a4b0 connect to:192.13 timeout!
+[TID:176288] 2021-07-30 17:11:46|info CStreamCore::handleLinkError 609, current state:5
+[TID:176288] 2021-07-30 17:11:46|info CDynamicUpdateHandle::stateProc 404, state:2
+[TID:176288] 2021-07-30 17:11:46|info CStreamCore::handleLinkError 619, after call back function current state:2
+[TID:176249] 2021-07-30 17:11:46|error CDynamicUpdateHandle::needUpdate 433, current state:1 is not connected!
+[TID:176249] 2021-07-30 17:11:46|info CDynamicUpdateHandle::disconnectUpgradeSrv 377, disconnect upgrade server!
+[TID:176287] 2021-07-30 17:11:46|info CStreamCore::handleConnClosed 560, current state:8
+[TID:176287] 2021-07-30 17:11:46|info CDynamicUpdateHandle::stateProc 404, state:3
+[TID:176249] 2021-07-30 17:11:46|info CDynamicUpdateHandle::disconnectUpgradeSrv 396, close ok
+[TID:176249] 2021-07-30 17:11:46|info CDynamicUpdateHandle::initialize 149, initial success!
+[TID:176249] 2021-07-30 17:11:47|info #0, CEFileSystemInternal::initialize 272, efs cfg: yuxuwei@192.13:38100.
+[TID:176249] 2021-07-30 17:11:47|info #0, CAsyncMessenger::getConnection 110, get new connection(192.13:38100, 0xfe4580)
+[TID:176390] 2021-07-30 17:11:49|info #0, CAsyncMessenger::timeoutOpTimer 345, connection operation(0xfd1140) timeout.
+[TID:176249] 2021-07-30 17:11:49|error #-20005, CClient::connect 71, 0xfe3a10, failed to connect. server(192.13:38100)
+[TID:176249] 2021-07-30 17:11:49|error #-20005, CEFileSystemInternal::initialize 304, connect catalog error.
+[TID:176249] 2021-07-30 17:11:49|info #0, CAsyncMessenger::putConnection 160, no one use the connection(192.13:38100, 0xfe4580), try to close.
+[TID:176249] 2021-07-30 17:11:49|info #0, CClient::destroy 193, 0xfe3a10, finish connection operation(0xfd1140). server(192.13:38100)
+[TID:176249] 2021-07-30 17:11:49|info #0, CClient::destroy 204, 0xfe3a10, destroy successfully. server(192.13:38100)
+[TID:176357] 2021-07-30 17:11:49|info #0, CAsyncMessenger::handleConnClosed 253, the connection(192.13:38100, 0xfe4580) has been closed.
+[TID:176249] 2021-07-30 17:11:49|info #0, CEObjectSystemInternal::~CEObjectSystemInternal 128, 0x10857a0.
+[TID:176249] 2021-07-30 17:11:49|info #0, CEFileSystemInternal::~CEFileSystemInternal 248, 0x106a4b0.
+[TID:176249] 2021-07-30 17:11:49|info CTimer::~CTimer 55, timer manager(0x7fe731f5eb30) destroy!
+[TID:176249] 2021-07-30 17:11:49|info #0, CSDKMetrics::~CSDKMetricsMgr 162, Metrics:0x7fe7147f67d0, ~CSDKMetricsMgr.
+[TID:176249] 2021-07-30 17:11:49|info CTimer::~CTimer 55, timer manager(0x7fe7147f6b00) destroy!
+[TID:176389] 2021-07-30 17:11:49|warn #0,Timer::threadProc 188, Timer Thread loops not on time, one loop using:305241 microsecond!
+[TID:176390] 2021-07-30 17:11:49|warn #0,Timer::threadProc 188, Timer Thread loops not on time, one loop using:306164 microsecond!
+[TID:176391] 2021-07-30 17:11:49|warn #0,Timer::threadProc 188, Timer Thread loops not on time, one loop using:306301 microsecond!
+[TID:176392] 2021-07-30 17:11:49|warn #0,Timer::threadProc 188, Timer Thread loops not on time, one loop using:307470 microsecond!
+[TID:176393] 2021-07-30 17:11:49|warn #0,Timer::threadProc 188, Timer Thread loops not on time, one loop using:305513 microsecond!
+[TID:176394] 2021-07-30 17:11:49|warn #0,Timer::threadProc 188, Timer Thread loops not on time, one loop using:305594 microsecond!
+[TID:176395] 2021-07-30 17:11:49|warn #0,Timer::threadProc 188, Timer Thread loops not on time, one loop using:305855 microsecond!
+[TID:176396] 2021-07-30 17:11:49|warn #0,Timer::threadProc 188, Timer Thread loops not on time, one loop using:305940 microsecond!
