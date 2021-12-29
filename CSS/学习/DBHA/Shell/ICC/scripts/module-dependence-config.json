@@ -1,0 +1,51 @@
+{
+    "dependenceConfigs": [
+        {
+            "configs": [
+                {
+                    "componentConfig": false,
+                    "errorMsg": "server.dbha.vip.regex.invalid",
+                    "i18nKey": "server.dbha.vip",
+                    "key": "SERVER.DBHA.VIP",
+                    "length": -1,
+                    "max": -1,
+                    "min": -1,
+                    "regex": "^$|^([1-9]|[1-9][0-9]|1[0-9][0-9]|2[0-4][0-9]|25[0-5])(\\.([0-9]|[1-9][0-9]|1[0-9][0-9]|2[0-4][0-9]|25[0-5])){3}$",
+                    "transportSecret": false,
+                    "value": "127.0.0.3",
+                    "valueSecret": false
+                },
+				{
+                    "componentConfig": true,
+                    "errorMsg": "server.dbha.business.ip.regex.invalid",
+                    "i18nKey": "server.dbha.business.ip",
+                    "key": "SERVER.DBHA.BUSINESS.IP",
+                    "length": -1,
+                    "max": -1,
+                    "min": -1,
+                    "regex": "^$|^([1-9]|[1-9][0-9]|1[0-9][0-9]|2[0-4][0-9]|25[0-5])(\\.([0-9]|[1-9][0-9]|1[0-9][0-9]|2[0-4][0-9]|25[0-5])){3}$",
+                    "transportSecret": false,
+                    "value": "127.0.0.1;127.0.0.2",
+                    "valueSecret": false
+                },
+                {
+                    "componentConfig": true,
+                    "errorMsg": "server.dbha.heartbeats.ip.regex.invalid",
+                    "i18nKey": "server.dbha.heartbeats.ip",
+                    "key": "SERVER.DBHA.HEARTBEATS.IP",
+                    "length": -1,
+                    "max": -1,
+                    "min": -1,
+                    "regex": "^$|^([1-9]|[1-9][0-9]|1[0-9][0-9]|2[0-4][0-9]|25[0-5])(\\.([0-9]|[1-9][0-9]|1[0-9][0-9]|2[0-4][0-9]|25[0-5])){3}$",
+                    "transportSecret": false,
+                    "value": "219.220.101.101;219.220.101.102",
+                    "valueSecret": false
+                }
+            ],
+            "dependenceConfigType": 1,
+            "dependenceName": "common",
+            "i18nKey": "module.service.commom"
+        }
+    ],
+    "shortName": "DBHA"
+}

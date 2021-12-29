@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mudule>
+    <base>
+        <!-- 英文缩写名称 -->
+        <short-name>DBHA</short-name>
+        <!-- 服务运行的进程名称（针对有独立进程的服务），这个进程名称必须保证唯一 -->
+        <thread-name>DBHAServer64</thread-name>
+        <!-- 服务版本 -->
+        <service-version>1.030.0000019.5</service-version>
+        <!-- SVN版本（分支名称@SVN版本），该部分不用去修改，会在打包的时候处理替换占位符中的值 -->
+        <svn-version>https://yfgitlab.dahuatech.com/BigData/CloudStorage/DBHA/tree/@640</svn-version>
+        <!-- 模块归类，type: 0-业务服务（默认） / 1-系统服务 / 2-基础服务，业务服务的话需要注明所属子系统的英文缩写（Evo-cims） -->
+        <grouping type="0">DBHA</grouping>
+        <!-- 模块类型：1-服务模块（如：Evo-brm），2-业务子系统(如：可视对讲子系统)，3-综合定制包 -->
+        <module-type>1</module-type>
+        <!-- 包描述，主要用于软件包的描述说明，只针对安装部署时内部显示使用 -->
+        <package-desc>DBHA服务</package-desc>
+    </base>
+    <deploy>
+        <!-- 部署方式：1-集成部署，2-独立部署  -->
+        <deploy-type>2</deploy-type>
+        <!-- 集群支持：1-支持（默认），2-不支持  -->
+        <support-cluster>2</support-cluster>
+		<!-- 配置下发，0-不支持（默认），1-支持 -->
+        <config-issue>1</config-issue> 
+        <!-- 程序文件占用空间，单位：MB -->
+        <package-size>300</package-size>
+        <!-- 计划内存占用，单位：MB -->
+        <memory-allocation>4096</memory-allocation>
+        <!-- 服务管理脚本路径 -->
+        <manage-script>Shell/ICC/scripts/service_manage_interface.sh</manage-script>
+        <!-- 模块部署路径信息 -->
+        <modules>
+            <module name="DBHA">/cloud/dahua/DataBaseServer/DBHA/</module>
+        </modules>
+    </deploy>
+    <running>
+        <!-- 模块重启关联范围，1-模块自身重启，2-子系统相关模块重启，3-全平台重启 -->
+        <restart-rel-scope>1</restart-rel-scope>
+    </running>
+</mudule>
